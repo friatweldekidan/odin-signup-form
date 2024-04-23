@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #000;
+}
+
+.main-wrapper {
+    background-image: url("/image/halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 900px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 120px;
+    position: relative;
+}
+
+.credit-info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-size: 8px;
+}
+
+.credit-name,
+.credit-source {
+    text-decoration: underline;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    height: 100px;
+    width: 100%;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 800px;
+}
+
+.main-content {
+    background-color: #F9FAFB;
+    padding: 20px;
+    max-height: 600px;
+    margin: auto 0;
+}
+
+.logo-img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.logo-text {
+    font-family: 'Bungee', sans-serif;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus {
+    outline: none;
+    border-color: #596D48;
+    box-shadow: 0 0 5px #596D48;
+}
+
+.signup-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-column {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+button[type="submit"] {
+    background-color: #596D48;
+    color: #fff;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button[type="submit"]:hover {
+    background-color: #495f3b;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+p span {
+    color: #596D48;
+    cursor: pointer;
+}
+
+/* Valid input */
+input:valid {
+    border-color: blue;
+    box-shadow: 0 0 5px blue;
+}
+
+/* Invalid input */
+input:invalid {
+    border-color: red;
+    box-shadow: 0 0 5px red;
+}
+
+.intro-content {
+    padding: 60px 10px;
+}
+
+.form-section {
+    background-color: #ffffff;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bungee&display=swap">
+</head>
+
+<body>
+
+    <div class="main-container">
+        <div class="main-wrapper">
+            <div class="header-content">
+                <img src="/image/odin-lined.png" alt="Odin Logo" class="logo-img">
+                <p class="logo-text">odin</p>
+            </div>
+            <div class="credit-info">
+                Photo By <span class="credit-name">Halie West </span>on <span class="credit-source">Unsplash</span>
+            </div>
+
+        </div>
+
+        <div class="main-content">
+            <div class="intro-content">
+                <p>The odin project is awesome! You know you need something like this in your life to help you build
+                    your dream to become a programmer. Sign up now to get started. </p>
+                <p>You know you need to.</p>
+            </div>
+            <div class="form-section">
+
+                <p>Let's do this!</p>
+                <form action="submit.php" method="POST" class="signup-form">
+                    <div class="form-column">
+                        <div class="form-group">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" id="first-name" name="first-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" id="last-name" name="last-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                    </div>
+                    <div class="form-column">
+                        <div class="form-group">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="number" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password:</label>
+                            <input type="password" id="password" name="password">
+                        </div>
+                        <div class="form-group">
+                            <label for="confirm_password">Confirm Password:</label>
+                            <input type="password" id="confirm_password" name="confirm_password">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="action-buttons">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <span>Log in</span></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
