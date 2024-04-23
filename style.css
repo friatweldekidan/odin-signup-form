@@ -8,7 +8,7 @@ html {
 }
 
 .main-wrapper {
-    background-image: url("/image/halie-west-25xggax4bSA-unsplash.jpg");
+    background-image: url("image/halie-west-25xggax4bSA-unsplash.jpg");
     background-size: cover;
     background-position: center;
     width: 900px;
